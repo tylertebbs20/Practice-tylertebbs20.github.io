@@ -20,6 +20,8 @@ html, body {
 	background: blue;
 	width: 80%;
 	height: 1000px;
+	display: flex;
+	flex-direction: column;
 }
 
 .home {
@@ -127,4 +129,61 @@ html, body {
 
 .arrow4 {
 	margin-right: 2%;
+}
+
+.twoRows {
+	
+}
+
+.siloContainerB {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 135%;
+	margin-top: 10%
+}
+
+.mainsilo1B {
+	background: green;
+    height: 100px;
+    width: 200px;
+    border-width: 1px;
+    border-style: solid;
+
+}
+
+.Silo1keyword1B {
+	margin-left: 10%;
+
+} 
+
+.silo1KeywordInsert1B {
+	text-align: center;
+}
+
+
+.mainsilo2B {
+	background: purple;
+    height: 100px;
+    width: 200px;
+    border-width: 1px;
+    border-style: solid;
+}
+          
+.mainsilo3B {
+	background: purple;
+    height: 100px;
+    width: 200px;
+    border-width: 1px;
+    border-style: solid;
+
+}
+
+.mainsilo4B {
+	background: yellow;
+    height: 100px;
+    width: 200px;
+    border-width: 1px;
+    border-style: solid;
+
 }
